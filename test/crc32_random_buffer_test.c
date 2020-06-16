@@ -35,12 +35,10 @@ int main(int argc, char * argv[])
     }
 
     if (is_success)
-        // printf("Success -> Buffer Size: | Match: %08x == %08x\r\n", crc_res_1, crc_res_2);
         printf("Success");
     else
     {
         printf("Fail");
-        // printf("Failed: %08x != %08x\r\n", crc_res_1, crc_res_2);
     }
     getchar();
 }
