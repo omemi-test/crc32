@@ -1,5 +1,5 @@
-#ifndef _CCRC32_H
-#define _CCRC32_H
+#ifndef _CRC32_H
+#define _CRC32_H
 ///////////////////////////////////////////////////////////////////////////////
 
 #include <stdbool.h>

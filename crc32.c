@@ -1,8 +1,3 @@
-#ifndef _CCRC32_C
-#define _CCRC32_C
-
-#define _CRT_SECURE_NO_WARNINGS     //Disables fopen() security warning on Microsoft compilers.
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
@@ -110,6 +105,3 @@ uint8_t crc32_file(uint32_t * crc_out, char * file_name, size_t buffer_size)
 
     return 0;
 }
-
-
-#endif
