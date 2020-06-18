@@ -1,3 +1,8 @@
+/*
+ * CRC32 Random Buffer Test
+ *
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
